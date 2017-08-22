@@ -15,6 +15,16 @@ app.get('/about', function(req, res) {
   res.sendfile(path.resolve(__dirname + '/views/about.html'));
 });
 
+// contact page
+app.get('/contact', function(req, res) {
+  res.sendfile(path.resolve(__dirname + '/views/contact.html'));
+});
+
+// store page
+app.get('/store', function(req, res) {
+  res.sendfile(path.resolve(__dirname + '/views/store.html'));
+});
+
 // error page
 app.get('*', function(req, res) {
   res.sendfile(path.resolve(__dirname + '/views/404.html'));
