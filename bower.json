@@ -1,0 +1,20 @@
+{
+  "name": "bower install",
+  "description": "newclassfrontendapp",
+  "main": "app.js",
+  "authors": [
+    "Ryan potato pants <ryanja567@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Ryana513/frontend821app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.100.1"
+  }
+}
